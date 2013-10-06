@@ -38,6 +38,7 @@
 		16709A55151CB13C00FE741F /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 16709A54151CB13C00FE741F /* MainViewController.m */; };
 		16709A57151CB13C00FE741F /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 16709A56151CB13C00FE741F /* MainViewController.xib */; };
 		16709A5B151CB13C00FE741F /* verify.sh in Resources */ = {isa = PBXBuildFile; fileRef = 16709A5A151CB13C00FE741F /* verify.sh */; };
+		16709A62151CB2D600FE741F /* www in Resources */ = {isa = PBXBuildFile; fileRef = 16709A61151CB2D600FE741F /* www */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -55,10 +56,10 @@
 		16709A1D151CB13B00FE741F /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		16709A1F151CB13B00FE741F /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 		16709A21151CB13B00FE741F /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
-		16709A25151CB13B00FE741F /* scenedipity-app-Info.plist */ = {isa = PBXFileReference; path = "scenedipity-app-Info.plist"; sourceTree = "<group>"; };
+		16709A25151CB13B00FE741F /* scenedipity-app-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "scenedipity-app-Info.plist"; sourceTree = "<group>"; };
 		16709A27151CB13B00FE741F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		16709A29151CB13B00FE741F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		16709A2B151CB13B00FE741F /* scenedipity-app-Prefix.pch */ = {isa = PBXFileReference; path = "scenedipity-app-Prefix.pch"; sourceTree = "<group>"; };
+		16709A2B151CB13B00FE741F /* scenedipity-app-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "scenedipity-app-Prefix.pch"; sourceTree = "<group>"; };
 		16709A2C151CB13B00FE741F /* Cordova.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cordova.framework; path = /Users/Shared/Cordova/Frameworks/Cordova.framework; sourceTree = "<absolute>"; };
 		16709A31151CB13B00FE741F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = Resources/en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		16709A35151CB13B00FE741F /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = Resources/es.lproj/Localizable.strings; sourceTree = "<group>"; };
@@ -71,13 +72,14 @@
 		16709A49151CB13C00FE741F /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "Resources/splash/Default@2x.png"; sourceTree = "<group>"; };
 		16709A4B151CB13C00FE741F /* Capture.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = Capture.bundle; path = Resources/Capture.bundle; sourceTree = "<group>"; };
 		16709A4D151CB13C00FE741F /* Cordova.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Cordova.plist; sourceTree = "<group>"; };
-		16709A50151CB13C00FE741F /* AppDelegate.h */ = {isa = PBXFileReference; name = AppDelegate.h; path = Classes/AppDelegate.h; sourceTree = "<group>"; };
+		16709A50151CB13C00FE741F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Classes/AppDelegate.h; sourceTree = "<group>"; };
 		16709A51151CB13C00FE741F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = Classes/AppDelegate.m; sourceTree = "<group>"; };
-		16709A53151CB13C00FE741F /* MainViewController.h */ = {isa = PBXFileReference; name = MainViewController.h; path = Classes/MainViewController.h; sourceTree = "<group>"; };
+		16709A53151CB13C00FE741F /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MainViewController.h; path = Classes/MainViewController.h; sourceTree = "<group>"; };
 		16709A54151CB13C00FE741F /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = MainViewController.m; path = Classes/MainViewController.m; sourceTree = "<group>"; };
 		16709A56151CB13C00FE741F /* MainViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = MainViewController.xib; path = Classes/MainViewController.xib; sourceTree = "<group>"; };
-		16709A59151CB13C00FE741F /* README */ = {isa = PBXFileReference; name = README; path = Plugins/README; sourceTree = "<group>"; };
+		16709A59151CB13C00FE741F /* README */ = {isa = PBXFileReference; lastKnownFileType = text; name = README; path = Plugins/README; sourceTree = "<group>"; };
 		16709A5A151CB13C00FE741F /* verify.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = verify.sh; sourceTree = "<group>"; };
+		16709A61151CB2D600FE741F /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; name = www; path = ../../Documents/workspace/scenedipitySites/www; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +117,7 @@
 		167099F7151CB13900FE741F = {
 			isa = PBXGroup;
 			children = (
+				16709A61151CB2D600FE741F /* www */,
 				16709A23151CB13B00FE741F /* scenedipity-app */,
 				16709A08151CB13B00FE741F /* Frameworks */,
 				16709A06151CB13B00FE741F /* Products */,
@@ -329,6 +332,7 @@
 				16709A4E151CB13C00FE741F /* Cordova.plist in Resources */,
 				16709A57151CB13C00FE741F /* MainViewController.xib in Resources */,
 				16709A5B151CB13C00FE741F /* verify.sh in Resources */,
+				16709A62151CB2D600FE741F /* www in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -422,7 +426,7 @@
 					armv6,
 					"$(ARCHS_STANDARD_32_BIT)",
 				);
-				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -450,7 +454,7 @@
 					armv6,
 					"$(ARCHS_STANDARD_32_BIT)",
 				);
-				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -544,6 +548,7 @@
 				16709A60151CB13C00FE741F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
